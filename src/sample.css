@@ -1,0 +1,217 @@
+.App {
+    text-align: center;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    
+  }
+  .Loginpage{
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+  .Loginpage1{
+    text-align:center;
+    font-size: 50px;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 50px;
+  }
+  .Alignx1{
+    text-align:center;
+    font-size: 22px;
+    font-style: bold;
+    margin-top: 40px;
+  }
+  .Alignx11
+  {
+    margin-top: 15px;
+    border-bottom:3px solid rgb(0, 0, 0);
+  }
+  .Alignx2{
+    text-align:center;
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 30px;
+  }
+  .Alignx3{
+    position:relative;
+    margin-left: 460px;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: rgb(40, 17, 220);
+    color: white;
+    padding: 10px 35px;
+    border-radius: 5px;
+    outline: 0;
+    box-shadow: 0px 2px 2px lightgray;
+    font-style: italic;
+    cursor: pointer;
+    border-radius:80px;
+  }
+  .Alignx4{
+    position:relative;
+    margin-left: 80px;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: rgb(250, 57, 14);
+    color: white;
+    padding: 10px 35px;
+    border-radius: 5px;
+    outline: 0;
+    box-shadow: 0px 2px 2px lightgray;
+    font-style: italic;
+    cursor: pointer;
+    border-radius:80px;
+  }
+  
+  .Alignx5{
+    position:relative;
+    margin-left: 80px;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: rgb(40, 17, 220);
+    color: white;
+    padding: 10px 35px;
+    border-radius: 5px;
+    outline: 0;
+    box-shadow: 0px 2px 2px lightgray;
+    font-style: italic;
+    cursor: pointer;
+    border-radius:80px;
+  }
+  .Align1{
+    margin-left: 523px;
+    margin-top: 33px;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(12, 67, 36);
+  }
+  .Align2{
+    border-radius: 20px;
+    font-size: 20px;
+    font-style: italic;
+    padding: 5px 15px;
+  }
+  
+  .Align3{
+    margin-left: 523px;
+    margin-top: 70px;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(12, 67, 36);
+  }
+  .Align4{
+    margin-left: 450px;
+    margin-top: 15px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-style: italic; 
+    padding: 5px 15px;
+  }
+  .Align5{
+    margin-left: 480px;
+    margin-top: 50px;
+    font-size: 25px;
+    background-color: rgb(35, 152, 68);
+    color: white;
+    padding: 5px 250px;
+    border-radius: 15px;
+    outline: 0;
+    box-shadow: 0px 2px 2px lightgray;
+    font-style: italic;
+    cursor: pointer;
+  }
+  .Align6{
+    margin-left: 550px;
+    margin-top: 25px;
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(79, 41, 18);
+  }
+  .Align7{
+    margin-left: 630px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    background-color: blue;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 15px;
+    outline: 0;
+    box-shadow: 0px 2px 2px lightgray;
+    font-style: italic;
+    cursor: pointer;
+  }
+  .Logo{
+    color: rgb(47, 3, 3);
+  
+  }
+  .Home{
+    cursor: pointer;
+  }
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .Loginpage button:hover{
+    transform: scale(1.1);
+  }
+  
+  .Loginpage input{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 700px;
+  }
+  .Loginpage button.Home{
+    position: absolute;
+    margin-top: -610px;
+    margin-left: -890px;
+  }
+  .Loginpage img.Logo{
+    position: absolute;
+    margin-left: 519px;
+    margin-top: -615px;
+  }
+  .Loginpage p.Logo{
+    position: absolute;
+    margin-left: 1285px;
+    margin-top: -718px;
+  }
+  
